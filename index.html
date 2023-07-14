@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>TODO LIST</title>
+  </head>
+  <body>
+    <form id="form">
+      <input
+        type="text"
+        name="task"
+        id="input-task"
+        placeholder="write your task"
+      />
+      <button id="filter-all" data-filter="all">All</button>
+      <button id="filter-uncompleted" data-filter="uncompleted">
+        Uncompleted
+      </button>
+      <button id="filter-completed" data-filter="completed">Completed</button>
+    </form>
+    <div id="tasks-container"></div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

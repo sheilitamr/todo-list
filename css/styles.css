@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid steelblue;
+  color: #f3f3f3;
+}
+
+.task-delete {
+  border: none;
+  background-color: #333;
+  color: rgba(255, 115, 0, 0.927);
+  font-size: 1.5rem;
+}
